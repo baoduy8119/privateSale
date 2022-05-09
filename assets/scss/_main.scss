@@ -1,0 +1,112 @@
+main {
+    margin-top: 100px;
+    background: url(../images/main-bg-bottom.png) no-repeat center bottom;
+    background-size: 100%;
+    padding-bottom: 200px;
+    @media screen and (max-width: 767px) {
+        background-size: 200%;
+        padding-bottom: 100px;
+    }
+}
+#private-sale {
+    padding: 100px 0;
+    background: url(../images/beautiful-shining-stars-night-sky.png) no-repeat center top;
+    background-size: 100%;
+    overflow: hidden;
+    .classic-form {
+        margin-top: 150px;
+        @media screen and (max-width: 767px) {
+            margin-top: 100px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding: 50px 0;
+    }
+}
+#history {
+    background: url(../images/beautiful-shining-stars-night-sky.png) no-repeat center top;
+    background-size: 100%;
+    .heading-2 {
+        padding: 100px 0;
+        @media screen and (max-width: 768px) {
+            padding: 60px;
+        }
+        
+    }
+}
+.classic-form {
+    background: #001432 url(../images/classic-form-bg.png) no-repeat left top;
+    border: 2px solid #fff;
+    color: white;
+    .form-inner {
+        padding: 90px 100px;
+        @media screen and (max-width: 767px) {
+            padding: 40px;
+        }
+    }
+    .form-control {
+        background-color: #001432;
+        border: 2px solid #002863;
+        font-size: 24px;
+        color: white;
+        height: 60px;
+        text-align: center;
+        letter-spacing: 3px;
+        @media screen and (max-width: 767px) {
+            font-size: 20px;
+            height: 50px;
+        }
+
+        &:focus,
+        &:focus-visible {
+            background: #002256;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .form-group {
+        margin-bottom: 25px;
+    }
+    label {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+}
+.table {
+    color: rgba(255, 255, 255, 0.7);
+    thead {
+        tr {
+            background: rgba(0, 20, 51, 0.9) !important;
+            border: 2px solid #8a98c5;
+            th {
+                border: none;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 24px 20px;
+                @media screen and (max-width: 767px) {
+                    padding: 22px 15px;
+                    font-size: 12px
+                }
+            }
+        }
+    }
+    tr {
+        background: #001432;
+        text-align: center;
+        &:nth-of-type(odd) {
+            background: #00183d;
+        }
+        td {
+            border: none;
+            font-size: 18px;
+            padding: 21px 20px;
+            @media screen and (max-width: 767px) {
+                padding: 18px 15px;
+                font-size: 16px;
+            }
+            
+        }
+    }
+}
